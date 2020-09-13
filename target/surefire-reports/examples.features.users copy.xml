@@ -1,0 +1,11 @@
+<testsuite failures="0" name="examples/features/users copy.feature" skipped="0" tests="1" time="1.042933">
+  <testcase classname="examples.features.users copy" name="get all users and then get the first user by id" time="1.042933">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def expectedResponse2 = read('result1.json') ............................ passed
+* def expectedResponse = read('result.json') .............................. passed
+Given path 'api/users/3' .................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == expectedResponse2 ................................... passed</system-out>
+  </testcase>
+</testsuite>

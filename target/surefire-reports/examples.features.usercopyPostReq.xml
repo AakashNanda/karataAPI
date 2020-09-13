@@ -1,0 +1,31 @@
+<testsuite failures="1" name="examples/features/usercopyPostReq.feature" skipped="0" tests="2" time="3.162341">
+  <testcase classname="examples.features.usercopyPostReq" name="Post method test" time="1.604519">
+    <system-out>Given url 'https://reqres.in/api/users' ................................... passed
+And headers {Content-Type: 'application/json', Accept: 'application/json'} . passed
+And request '{ "name": "Aakash", "job":"leader"}' ......................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.features.usercopyPostReq" name="Access token" time="1.557822">
+    <failure message="usercopyPostReq.feature:18 - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {&quot;createdAt&quot;:&quot;2020-09-12T15:30:06.650Z&quot;,&quot;grant_type&quot;:&quot;&quot;,&quot;client_secret&quot;:&quot;#client_secret&quot;,&quot;id&quot;:&quot;7&quot;,&quot;client_id&quot;:&quot;#client_id&quot;}">Given url 'https://reqres.in/api/users' ................................... passed
+And headers {Content-Type: 'application/json', Accept: 'application/json'} . passed
+And request '{ "name": "Aakash", "job":"leader"}' ......................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+Given url 'https://reqres.in/api/users' ................................... passed
+And path 'toke' ........................................................... passed
+And form field grant_type = '' ............................................ passed
+And form field client_id = '#client_id' ................................... passed
+And form field client_secret = '#client_secret' ........................... passed
+When method post .......................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: usercopyPostReq.feature:18 - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}&#13;
+	at ✽.Then status 200 (usercopyPostReq.feature:18)&#13;
+
+* def accesstoken = response.access_toke .................................. skipped
+Given path '' ............................................................. skipped
+And header Authorization = 'Bearer' + accesstoken ......................... skipped</failure>
+  </testcase>
+</testsuite>

@@ -1,0 +1,85 @@
+10:30:07.076 karate.env system property was:  
+10:30:07.207 [print] -----functiondata nanda
+.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+23:42:30.739 response time in milliseconds: 581.94
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0eb8f0ce32feb2-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:30 GMT
+1 < Etag: W/"7d-NCQC1Dqg3qHBEW2GcG6D8pBeRVc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db61ee34b5ab239f2b483887c6a85b29f1599799349; expires=Sun, 11-Oct-20 04:42:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11ea7c0000feb2d4a00200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"242","createdAt":"2020-09-11T04:42:30.093Z"}
+
+23:42:30.740 status code was: 201, expected: 200, response time: 582, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T04:42:30.093Z","grant_type":"","client_secret":"#client_secret","id":"242","client_id":"#client_id"}
+qres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:39:43.173 response time in milliseconds: 136.10
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1037
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb4db2d4ab3ca-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0219e9ccfcdf7bced27414ce8d086ad71599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5cf40000b3ca3506c200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:39:43.177 request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:39:43.299 response time in milliseconds: 121.43
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1037
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb4dbee91feca-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d58a55c59a53b0a94370ff033e0a202ff1599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5d730000fecaa428b200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+

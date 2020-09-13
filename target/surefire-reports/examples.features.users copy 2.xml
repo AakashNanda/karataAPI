@@ -1,0 +1,46 @@
+<testsuite failures="0" name="examples/features/users copy 2.feature" skipped="0" tests="2" time="1.806423">
+  <testcase classname="examples.features.users copy 2" name="get all users and then get the first user by id" time="1.509746">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def expectedResponse1 = read('result.json') ............................. passed
+* def expectedResponse2 = read('result1.json') ............................ passed
+* def feature = read('users copy.feature') ................................ passed
+* def result = call read('users copy.feature') ............................ passed
+Given path 'api/users/2' .................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == expectedResponse1 ................................... passed
+And match response.data.id == 2 ........................................... passed
+And match response.data.last_name != null ................................. passed
+* def name_value = response.data.name ..................................... passed
+And match name_value == null .............................................. passed
+* def first_name = result.response.data.first_name ........................ passed
+Then print 'first_name -----', first_name ................................. passed</system-out>
+  </testcase>
+  <testcase classname="examples.features.users copy 2" name="get all users and then get the first user by id" time="0.296677">
+    <system-out>* url 'https://reqres.in/' ................................................ passed
+* def expectedResponse1 = read('result.json') ............................. passed
+* def expectedResponse2 = read('result1.json') ............................ passed
+* def feature = read('users copy.feature') ................................ passed
+* def result = call read('users copy.feature') ............................ passed
+Given path 'api/users/2' .................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == expectedResponse1 ................................... passed
+And match response.data.id == 2 ........................................... passed
+And match response.data.last_name != null ................................. passed
+* def name_value = response.data.name ..................................... passed
+And match name_value == null .............................................. passed
+* def first_name = result.response.data.first_name ........................ passed
+Then print 'first_name -----', first_name ................................. passed
+* url 'https://reqres.in/' ................................................ passed
+* def expectedResponse1 = read('result.json') ............................. passed
+* def expectedResponse2 = read('result1.json') ............................ passed
+* def feature = read('users copy.feature') ................................ passed
+* def result = call read('users copy.feature') ............................ passed
+* def expectedResponse = read('result.json') .............................. passed
+Given path 'api/users/3' .................................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+And match response == expectedResponse2 ................................... passed</system-out>
+  </testcase>
+</testsuite>

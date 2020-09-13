@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: examples.ExampleTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.285 s <<< FAILURE! - in examples.ExampleTest
+testParallel  Time elapsed: 7.272 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+failed features:
+examples.features.dbUtil: -unknown-:7 - evaluation (js) failed: new DbUtils(config), java.lang.IllegalStateException: Could not load JDBC driver class [org.h2.Drivecom.mysql.jdbc.Driverr]
+stack trace: org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)
+examples.features.usercopyPostReq: usercopyPostReq.feature:18 - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}
+ ==> expected: <0> but was: <2>
+	at examples.ExampleTest.testParallel(ExamplesTest.java:24)
+

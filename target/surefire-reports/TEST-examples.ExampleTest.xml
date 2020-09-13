@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="examples.ExampleTest" time="7.285" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="d:\Testing\Eclipse_workspace\Demo\target\test-classes;d:\Testing\Eclipse_workspace\Demo\target\classes;C:\Users\aakas\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\aakas\.m2\repository\com\intuit\karate\karate-core\0.9.6\karate-core-0.9.6.jar;C:\Users\aakas\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\aakas\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\aakas\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\aakas\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\aakas\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\aakas\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\aakas\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\aakas\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\aakas\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\aakas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\aakas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\aakas\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\aakas\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\aakas\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\aakas\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\aakas\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\aakas\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\aakas\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Users\aakas\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Users\aakas\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Users\aakas\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Users\aakas\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\aakas\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Users\aakas\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\aakas\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\aakas\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\aakas\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\aakas\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Users\aakas\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\aakas\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\aakas\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\aakas\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\aakas\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Users\aakas\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Users\aakas\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\aakas\.m2\repository\com\intuit\karate\karate-junit5\0.9.6\karate-junit5-0.9.6.jar;C:\Users\aakas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\aakas\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\aakas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\aakas\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\aakas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\aakas\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-jdbc\5.2.8.RELEASE\spring-jdbc-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-tx\5.2.8.RELEASE\spring-tx-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.jar;C:\Users\aakas\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\aakas\AppData\Local\Temp\surefire10075688755595327851\surefirebooter16230908602715162713.jar C:\Users\aakas\AppData\Local\Temp\surefire10075688755595327851 2020-09-12T10-30-04_750-jvmRun1 surefire4910721808982275033tmp surefire_010139137963893607304tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="d:\Testing\Eclipse_workspace\Demo\target\test-classes;d:\Testing\Eclipse_workspace\Demo\target\classes;C:\Users\aakas\.m2\repository\com\intuit\karate\karate-apache\0.9.6\karate-apache-0.9.6.jar;C:\Users\aakas\.m2\repository\com\intuit\karate\karate-core\0.9.6\karate-core-0.9.6.jar;C:\Users\aakas\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\aakas\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\aakas\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\aakas\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\aakas\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\aakas\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\aakas\.m2\repository\org\yaml\snakeyaml\1.24\snakeyaml-1.24.jar;C:\Users\aakas\.m2\repository\de\siegmar\fastcsv\1.0.3\fastcsv-1.0.3.jar;C:\Users\aakas\.m2\repository\info\picocli\picocli\4.0.3\picocli-4.0.3.jar;C:\Users\aakas\.m2\repository\org\apache\httpcomponents\httpclient\4.5.12\httpclient-4.5.12.jar;C:\Users\aakas\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\aakas\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\aakas\.m2\repository\org\apache\httpcomponents\httpmime\4.5.12\httpmime-4.5.12.jar;C:\Users\aakas\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\aakas\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\aakas\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\aakas\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\aakas\.m2\repository\net\masterthought\cucumber-reporting\3.8.0\cucumber-reporting-3.8.0.jar;C:\Users\aakas\.m2\repository\org\apache\logging\log4j\log4j-api\2.6\log4j-api-2.6.jar;C:\Users\aakas\.m2\repository\org\apache\logging\log4j\log4j-core\2.6\log4j-core-2.6.jar;C:\Users\aakas\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.8.5\jackson-databind-2.8.5.jar;C:\Users\aakas\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;C:\Users\aakas\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.8.5\jackson-core-2.8.5.jar;C:\Users\aakas\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\aakas\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\aakas\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\aakas\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\aakas\.m2\repository\joda-time\joda-time\2.9.6\joda-time-2.9.6.jar;C:\Users\aakas\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\aakas\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\aakas\.m2\repository\net\lingala\zip4j\zip4j\1.3.2\zip4j-1.3.2.jar;C:\Users\aakas\.m2\repository\org\codehaus\plexus\plexus-utils\3.0.24\plexus-utils-3.0.24.jar;C:\Users\aakas\.m2\repository\org\jsoup\jsoup\1.10.1\jsoup-1.10.1.jar;C:\Users\aakas\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20160924.1\owasp-java-html-sanitizer-20160924.1.jar;C:\Users\aakas\.m2\repository\com\google\guava\guava\20.0\guava-20.0.jar;C:\Users\aakas\.m2\repository\com\intuit\karate\karate-junit5\0.9.6\karate-junit5-0.9.6.jar;C:\Users\aakas\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.5.0\junit-jupiter-api-5.5.0.jar;C:\Users\aakas\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\aakas\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\aakas\.m2\repository\org\junit\platform\junit-platform-commons\1.5.0\junit-platform-commons-1.5.0.jar;C:\Users\aakas\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.5.0\junit-jupiter-engine-5.5.0.jar;C:\Users\aakas\.m2\repository\org\junit\platform\junit-platform-engine\1.5.0\junit-platform-engine-1.5.0.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-jdbc\5.2.8.RELEASE\spring-jdbc-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-beans\5.2.8.RELEASE\spring-beans-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-core\5.2.8.RELEASE\spring-core-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-jcl\5.2.8.RELEASE\spring-jcl-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\org\springframework\spring-tx\5.2.8.RELEASE\spring-tx-5.2.8.RELEASE.jar;C:\Users\aakas\.m2\repository\mysql\mysql-connector-java\8.0.18\mysql-connector-java-8.0.18.jar;C:\Users\aakas\.m2\repository\com\google\protobuf\protobuf-java\3.6.1\protobuf-java-3.6.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aakas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="d:\Testing\Eclipse_workspace\Demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aakas\AppData\Local\Temp\surefire10075688755595327851\surefirebooter16230908602715162713.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="aakas"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aakas\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aakas\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="d:\Testing\Eclipse_workspace\Demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\TOSCA\Tosca Testsuite\Classic;D:\TOSCA\Tosca Testsuite\ToscaCommander;;D:\TOSCA\Tosca Testsuite\Classic;D:\TOSCA\Tosca Testsuite\Classic\dll;D:\TOSCA\Tosca Testsuite\Classic\dll\GuptaEngine;D:\TOSCA\Tosca Testsuite\ToscaCommander;D:\TOSCA\Tosca Testsuite\Classic\dll\DelphiEngine;D:\TOSCA\Tosca Testsuite\Classic\dll\PBEngine;D:\TOSCA\Tosca Testsuite\Classic\dll\VBEngine;D:\TOSCA\Tosca Testsuite\Classic\dll\DotNetHooking;;D:\TOSCA\Tosca Testsuite\TBox\\Resources\Mobile\Tools;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_171\bin;D:\Testing\CT_Setup\apache-maven-3.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Android;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\aakas\AppData\Local\Microsoft\WindowsApps;C:\Users\aakas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aakas\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="testParallel" classname="examples.ExampleTest" time="7.272">
+    <failure message="failed features:&#10;examples.features.dbUtil: -unknown-:7 - evaluation (js) failed: new DbUtils(config), java.lang.IllegalStateException: Could not load JDBC driver class [org.h2.Drivecom.mysql.jdbc.Driverr]&#10;stack trace: org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)&#10;examples.features.usercopyPostReq: usercopyPostReq.feature:18 - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {&quot;createdAt&quot;:&quot;2020-09-12T15:30:06.650Z&quot;,&quot;grant_type&quot;:&quot;&quot;,&quot;client_secret&quot;:&quot;#client_secret&quot;,&quot;id&quot;:&quot;7&quot;,&quot;client_id&quot;:&quot;#client_id&quot;}&#10; ==&gt; expected: &lt;0&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+failed features:
+examples.features.dbUtil: -unknown-:7 - evaluation (js) failed: new DbUtils(config), java.lang.IllegalStateException: Could not load JDBC driver class [org.h2.Drivecom.mysql.jdbc.Driverr]
+stack trace: org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)
+examples.features.usercopyPostReq: usercopyPostReq.feature:18 - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}
+ ==> expected: <0> but was: <2>
+	at examples.ExampleTest.testParallel(ExamplesTest.java:24)
+]]></failure>
+    <system-out><![CDATA[10:30:06.899 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:30:07.072 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.072 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.073 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.072 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.072 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.170 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] test 1
+10:30:07.172 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] test 2
+this is nonStaticFunc
+10:30:07.202 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] result --  HelloAnkita
+10:30:07.206 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] -----functiondata nanda
+this is StaticFunc
+10:30:07.228 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - scenario called at line: 4 by tag: @tag1
+10:30:07.231 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.239 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] result1 --  HelloAakash
+10:30:07.241 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] test 1
+10:30:07.247 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "__arg": null,
+  "env": "dev",
+  "myVarName": "someValue",
+  "__loop": -1
+}
+
+10:30:07.263 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.485 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 8: classpath:examples/features/javafunc.feature
+10:30:07.485 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 8: classpath:examples/features/callingfeatureScenarios.feature
+10:30:07.487 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 8: classpath:examples/features/dbUtil.feature
+---------------------------------------------------------
+feature: classpath:examples/features/callingfeatureScenarios.feature
+report: target\surefire-reports\examples.features.callingfeatureScenarios.json
+scenarios:  2 | passed:  2 | failed:  0 | time: 0.0911
+---------------------------------------------------------
+---------------------------------------------------------
+feature: classpath:examples/features/javafunc.feature
+report: target\surefire-reports\examples.features.javafunc.json
+scenarios:  1 | passed:  1 | failed:  0 | time: 0.1047
+---------------------------------------------------------
+---------------------------------------------------------
+feature: classpath:examples/features/dbUtil.feature
+report: target\surefire-reports\examples.features.dbUtil.json
+scenarios:  1 | passed:  0 | failed:  1 | time: 0.0670
+---------------------------------------------------------
+10:30:07.509 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.513 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.881 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:07.881 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:07.882 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+10:30:07.882 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+10:30:08.552 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 668.47
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf61cdcfee6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5fc3f3bb6860bd4cd8f4f0630f3c0e4e1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dca0000fee63e916200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.552 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 668.48
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf61e9ffede-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7a71d331edb1a7f23e07a47e7a7df57d1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dca0000fede46932200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.561 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 8 of 8: classpath:examples/features/users copy.feature
+10:30:08.561 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+---------------------------------------------------------
+feature: classpath:examples/features/users copy.feature
+report: target\surefire-reports\examples.features.users copy.json
+scenarios:  1 | passed:  1 | failed:  0 | time: 1.0429
+---------------------------------------------------------
+10:30:08.567 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+10:30:08.601 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:08.739 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 137.51
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf75c6cb3ac-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dce3c4e22dd929667c4989eb01abcdbdc1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892e920000b3ac5eb71200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.746 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:08.824 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 939.61
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d1aaaf61a2ffeae-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 123
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"7b-kYyg5b1uqTdmw3yQ9pqo1sweylo"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1ff2ff406fadf1414d4a2d28c45bd9f61599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dd00000feae2a25b200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"7","createdAt":"2020-09-12T15:30:06.650Z"}
+
+10:30:08.825 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}
+10:30:08.837 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 953.48
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d1aaaf619c1fed6-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"52-UMwsTg9pziiICzrbrkQweRffcwo"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d47d30cf524c45e77300d10fe0c2e9ca21599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dd00000fed6fb1ac200000001
+{"name":"Aakash","job":"leader","id":"462","createdAt":"2020-09-12T15:30:06.648Z"}
+
+10:30:08.844 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 6 of 8: classpath:examples/features/usercopyPostReq.feature
+---------------------------------------------------------
+feature: classpath:examples/features/usercopyPostReq.feature
+report: target\surefire-reports\examples.features.usercopyPostReq.json
+scenarios:  2 | passed:  1 | failed:  1 | time: 3.1623
+---------------------------------------------------------
+10:30:08.865 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 117.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf80fb5fee6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5fc3f3bb6860bd4cd8f4f0630f3c0e4e1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892f090000fee635ab6200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.966 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 402.77
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 5d1aaaf6fcb7feb2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d15b95f94ebf47ab77975f2e2ffd8a1371599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892e5c0000feb2da3dd200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:09.025 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] first_name ----- Emma
+10:30:09.040 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 7 of 8: classpath:examples/features/users copy 2.feature
+---------------------------------------------------------
+feature: classpath:examples/features/users copy 2.feature
+report: target\surefire-reports\examples.features.users copy 2.json
+scenarios:  2 | passed:  2 | failed:  0 | time: 1.8064
+---------------------------------------------------------
+10:30:12.298 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 8: classpath:examples/features/functioncreation.feature
+---------------------------------------------------------
+feature: classpath:examples/features/functioncreation.feature
+report: target\surefire-reports\examples.features.functioncreation.json
+scenarios:  1 | passed:  1 | failed:  0 | time: 5.1247
+---------------------------------------------------------
+
+HTML report: (paste into browser to view) | Karate version: 0.9.6
+file:/d:/Testing/Eclipse_workspace/Demo/target/surefire-reports/karate-summary.html
+===================================================================
+
+Karate version: 0.9.6
+======================================================
+elapsed:   6.25 | threads:    5 | thread time: 11.40 
+features:     7 | ignored:    1 | efficiency: 0.36
+scenarios:   10 | passed:     8 | failed: 2
+======================================================
+failed features:
+examples.features.dbUtil: -unknown-:7 - evaluation (js) failed: new DbUtils(config), java.lang.IllegalStateException: Could not load JDBC driver class [org.h2.Drivecom.mysql.jdbc.Driverr]
+stack trace: org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)
+examples.features.usercopyPostReq: usercopyPostReq.feature:18 - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}
+
+]]></system-out>
+    <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
+]]></system-err>
+  </testcase>
+</testsuite>

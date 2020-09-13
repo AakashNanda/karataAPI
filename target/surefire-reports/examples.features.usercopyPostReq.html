@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+      
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+        <meta charset="utf-8">
+            
+        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+            
+        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+            
+        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+            
+        <link href="favicon.ico" rel="shortcut icon">
+            <script src="res/jquery.min.js" type="text/javascript"></script>
+    <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
+    <script src="res/bootstrap.min.js" type="text/javascript"></script>
+    <script src="res/karate-report.js" type="text/javascript"></script>
+    
+        <title>examples.features.usercopyPostReq</title>
+          
+    </head>
+      
+    <body>
+            
+        <div id="root-container">
+                  
+            <div id="leftnav">
+                        
+                <div class="nav-logo">
+                              <a href="karate-summary.html">
+            <img alt="Karate" src="res/karate-logo.svg">
+          </a>
+          
+                    <div class="nav-count">
+                                    
+                        <div class="bg-success" id="nav-pass">1</div>
+                                    
+                        <div class="bg-danger" id="nav-fail">1</div>
+                                  
+                    </div>
+                            
+                </div>
+                        
+                <div id="nav-type">Scenarios</div>
+                         
+        
+                <div id="nav-date">2020-09-12 10:30:12 AM</div>
+                        
+      
+                <div class="nav-container">
+                    <div class="nav-item passed">
+                        <a href="#[1:4]">[1:4] Post method test </a>
+                    </div>
+                    <div class="nav-item failed">
+                        <a href="#[2:11]">[2:11] Access token </a>
+                    </div>
+                </div>
+            </div>
+                  
+            <div id="content">
+                      
+                <div class="page-heading alert alert-primary">
+                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">examples/features/usercopyPostReq.feature</span><span class="feature-description">post request method if other feature file is running it</span>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[1:4]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">ignore</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario: [1:4]</span><span class="scenario-name">Post method test </span>
+                        </div>
+                        <div class="scenario-time passed">ms: 1605</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="1">
+                            <div class="step-ref passed">1</div>
+                            <div class="step-cell passed">Given url 'https://reqres.in/api/users'</div>
+                        </div>
+                        <div class="time-cell passed">4</div>
+                    </div>
+                    <div class="preformatted" data-parent="1">10:30:07.232 karate.env system property was:</div>
+                    <div class="step-row">
+                        <div class="step-container" id="2">
+                            <div class="step-ref passed">2</div>
+                            <div class="step-cell passed">And headers {Content-Type: 'application/json', Accept: 'application/json'}</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="3">
+                            <div class="step-ref passed">3</div>
+                            <div class="step-cell passed">And request '{ "name": "Aakash", "job":"leader"}'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="4">
+                            <div class="step-ref passed">4</div>
+                            <div class="step-cell passed">When method post</div>
+                        </div>
+                        <div class="time-cell passed">1596</div>
+                    </div>
+                    <div class="preformatted" data-parent="4">10:30:07.883 request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Accept: application/json
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 35
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+10:30:08.837 response time in milliseconds: 953.48
+1 &lt; 201
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 5d1aaaf619c1fed6-IAH
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 82
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 &lt; Etag: W/"52-UMwsTg9pziiICzrbrkQweRffcwo"
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d47d30cf524c45e77300d10fe0c2e9ca21599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+1 &lt; cf-request-id: 0524892dd00000fed6fb1ac200000001
+{"name":"Aakash","job":"leader","id":"462","createdAt":"2020-09-12T15:30:06.648Z"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="5">
+                            <div class="step-ref passed">5</div>
+                            <div class="step-cell passed">Then status 201</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                </div>
+                <div class="scenario">
+                    <div class="scenario-heading" id="[2:11]">
+                        <div class="heading-container">
+                            <div class="scenario-tags">
+                                <a class="badge badge-primary" href="karate-tags.html">ignore</a>
+                            </div>
+                            <span class="scenario-keyword">Scenario: [2:11]</span><span class="scenario-name">Access token </span>
+                        </div>
+                        <div class="scenario-time failed">ms: 1558</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="6">
+                            <div class="step-ref passed">6</div>
+                            <div class="step-cell passed">Given url 'https://reqres.in/api/users'</div>
+                        </div>
+                        <div class="time-cell passed">0</div>
+                    </div>
+                    <div class="preformatted" data-parent="6">10:30:07.264 karate.env system property was:</div>
+                    <div class="step-row">
+                        <div class="step-container" id="7">
+                            <div class="step-ref passed">7</div>
+                            <div class="step-cell passed">And path 'toke'</div>
+                        </div>
+                        <div class="time-cell passed">17</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="8">
+                            <div class="step-ref passed">8</div>
+                            <div class="step-cell passed">And form field grant_type = ''</div>
+                        </div>
+                        <div class="time-cell passed">9</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="9">
+                            <div class="step-ref passed">9</div>
+                            <div class="step-cell passed">And form field client_id = '#client_id'</div>
+                        </div>
+                        <div class="time-cell passed">5</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="10">
+                            <div class="step-ref passed">10</div>
+                            <div class="step-cell passed">And form field client_secret = '#client_secret'</div>
+                        </div>
+                        <div class="time-cell passed">3</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="11">
+                            <div class="step-ref passed">11</div>
+                            <div class="step-cell passed">When method post</div>
+                        </div>
+                        <div class="time-cell passed">1523</div>
+                    </div>
+                    <div class="preformatted" data-parent="11">10:30:07.883 request:
+1 &gt; POST https://reqres.in/api/users/toke
+1 &gt; Accept-Encoding: gzip,deflate
+1 &gt; Connection: Keep-Alive
+1 &gt; Content-Length: 65
+1 &gt; Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 &gt; Host: reqres.in
+1 &gt; User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&amp;client_id=%23client_id&amp;client_secret=%23client_secret
+
+10:30:08.824 response time in milliseconds: 939.61
+1 &lt; 201
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; CF-RAY: 5d1aaaf61a2ffeae-IAH
+1 &lt; Connection: keep-alive
+1 &lt; Content-Length: 123
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 &lt; Etag: W/"7b-kYyg5b1uqTdmw3yQ9pqo1sweylo"
+1 &lt; Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 &lt; Server: cloudflare
+1 &lt; Set-Cookie: __cfduid=d1ff2ff406fadf1414d4a2d28c45bd9f61599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 &lt; Via: 1.1 vegur
+1 &lt; X-Powered-By: Express
+1 &lt; cf-request-id: 0524892dd00000feae2a25b200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"7","createdAt":"2020-09-12T15:30:06.650Z"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="12">
+                            <div class="step-ref failed">12</div>
+                            <div class="step-cell failed">Then status 200</div>
+                        </div>
+                        <div class="time-cell failed">1</div>
+                    </div>
+                    <div class="preformatted" data-parent="12">10:30:08.825 status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}
+usercopyPostReq.feature:18 - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}</div>
+                    <div class="step-row">
+                        <div class="step-container" id="13">
+                            <div class="step-ref skipped">13</div>
+                            <div class="step-cell skipped">* def accesstoken = response.access_toke</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="14">
+                            <div class="step-ref skipped">14</div>
+                            <div class="step-cell skipped">Given path ''</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                    <div class="step-row">
+                        <div class="step-container" id="15">
+                            <div class="step-ref skipped">15</div>
+                            <div class="step-cell skipped">And header Authorization = 'Bearer' + accesstoken</div>
+                        </div>
+                        <div class="time-cell skipped">0</div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+           
+  
+    </body>
+    
+</html>

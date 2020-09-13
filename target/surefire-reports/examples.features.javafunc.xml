@@ -1,0 +1,11 @@
+<testsuite failures="0" name="examples/features/javafunc.feature" skipped="0" tests="1" time="0.104742">
+  <testcase classname="examples.features.javafunc" name="test outside function calling" time="0.104742">
+    <system-out>* def javaDemo = Java.type('examples.NonStaticFunction') .................. passed
+* def result = new javaDemo().nonStaticFunc("Ankita"); .................... passed
+Then print 'result -- ', result ........................................... passed
+* def result1 = javaDemo.staticFunc("Aakash"); ............................ passed
+Then print 'result1 -- ', result1 ......................................... passed
+* def writeData = Java.type('examples.WriteData') ......................... passed
+* def result1 = new writeData().writeData("Hurraahh"); .................... passed</system-out>
+  </testcase>
+</testsuite>

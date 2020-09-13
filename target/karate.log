@@ -1,0 +1,3408 @@
+23:27:23.705 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:27:23.872 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+23:27:23.872 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+23:27:23.872 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:27:24.176 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:27:24.176 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:27:24.176 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:27:24.658 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 476.04
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2085
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0665799ea8180b-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:27:25 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dadf333256d2cd4934c775ad5896b26271599712045; expires=Sat, 10-Oct-20 04:27:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517ddbfff0000180bf03a1200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:27:24.658 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 475.58
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2085
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0665799f1d07fa-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:27:25 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d889311beef6252395502fbc2cd13b5521599712045; expires=Sat, 10-Oct-20 04:27:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517ddbffa000007fa01b6f200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:27:24.658 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 475.58
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2085
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d06657999981807-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:27:25 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1e01cf6eb9eaa013e43178ce66ffdef01599712045; expires=Sat, 10-Oct-20 04:27:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517ddbffa00001807b6aa9200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:27:24.676 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:27:24.680 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:27:24.752 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 2: classpath:examples/features/users copy.feature
+23:27:24.787 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 110.93
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2684
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d06657a9dcbe3c6-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:27:25 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df2d15967165ba0910b86bbb55b6bcfb61599712045; expires=Sat, 10-Oct-20 04:27:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517ddc09d0000e3c611b2c200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:27:24.797 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 116.63
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2085
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d06657aaea7f349-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:27:25 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de440b8fc22f37d83cb83dd6045b2c1951599712045; expires=Sat, 10-Oct-20 04:27:25 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517ddc0a80000f3491ca08200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:27:24.813 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+23:27:24.820 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 2: classpath:examples/features/users copy 2.feature
+23:31:46.954 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:31:47.108 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+23:31:47.108 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:31:47.108 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+23:31:47.410 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:31:47.410 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:31:47.410 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:31:47.783 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 371.58
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2348
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d066be639911867-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:31:48 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d45658639019b4e3bb635e88ac5ebe1691599712308; expires=Sat, 10-Oct-20 04:31:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517e1c3e600001867731e3200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:31:47.783 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 371.65
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2348
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d066be63c03f379-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:31:48 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d3a9626693a21004b2154406f985cd1a71599712308; expires=Sat, 10-Oct-20 04:31:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517e1c3e60000f37947a09200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:31:47.783 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 371.58
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2348
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d066be63b3be3aa-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:31:48 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d15c9fa8ae4ee43bc4f6328f427108e8c1599712308; expires=Sat, 10-Oct-20 04:31:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517e1c3e60000e3aa43a58200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:31:47.790 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:31:47.793 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:31:47.849 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 2: classpath:examples/features/users copy.feature
+23:31:47.892 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 100.67
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2947
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d066be70d89f36d-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:31:48 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2a3e345a8fca7268e9c400b789a5bbce1599712308; expires=Sat, 10-Oct-20 04:31:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517e1c4600000f36ddd2ee200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:31:47.904 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 110.52
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2348
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d066be70bbbf1a2-ATL
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 04:31:48 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d3abec147f0405c42b70654969f36ea8c1599712308; expires=Sat, 10-Oct-20 04:31:48 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0517e1c4660000f1a254135200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:31:47.915 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] first_name ----- Emma
+23:31:47.922 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 2: classpath:examples/features/users copy 2.feature
+18:39:15.199 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:39:15.377 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:39:15.377 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+18:39:15.542 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 3: classpath:examples/features/usercopyPostReq.feature
+18:39:15.788 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:39:16.123 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 334.07
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5508
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0cfcbe898efed6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:39:15 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d39058eca5a6c7ed55d0b848457fba9751599781155; expires=Sat, 10-Oct-20 23:39:15 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051bfc4b160000fed6f0b27200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:39:16.130 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: classpath:examples/features/users copy.feature
+18:40:39.277 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:40:39.414 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+18:40:39.414 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:40:39.414 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+18:40:39.414 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+18:40:39.718 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:40:39.718 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:40:39.718 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:40:39.719 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: text/plain; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+18:40:40.047 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 326.54
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5592
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0cfecb0b4afee2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:40:39 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=def3de19c7856553f0a55a6976303d1a31599781239; expires=Sat, 10-Oct-20 23:40:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051bfd92e70000fee286ab3200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:40:40.047 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 326.64
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5592
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0cfecb0963fec2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:40:39 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d6faca18b1e8252aaa9a635cc02e99ef41599781239; expires=Sat, 10-Oct-20 23:40:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051bfd92e70000fec2a11c8200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:40:40.047 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 326.61
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5592
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0cfecb0f4cfed6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:40:39 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc9b3cc924814839e34151b8e6ca63fa01599781239; expires=Sat, 10-Oct-20 23:40:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051bfd92e80000fed60095a200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:40:40.056 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:40:40.056 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:40:40.137 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: classpath:examples/features/users copy.feature
+18:40:40.172 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 114.69
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5592
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0cfecbea97fec2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:40:39 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d6faca18b1e8252aaa9a635cc02e99ef41599781239; expires=Sat, 10-Oct-20 23:40:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051bfd93700000fec2ad2c7200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:40:40.302 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 581.22
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0cfecb0848feaa-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 51
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:40:39 GMT
+1 < Etag: W/"33-DeiyPfTtOD8jBJ7YMzvuxTYNqRA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dd2aef3ef8ccfee7f093d118147ffeb0b1599781239; expires=Sat, 10-Oct-20 23:40:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051bfd92e90000feaabb168200000001
+{"id":"688","createdAt":"2020-09-10T23:40:39.740Z"}
+
+18:40:40.305 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 3: classpath:examples/features/usercopyPostReq.feature
+18:40:40.430 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 373.07
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 5d0cfecbfb8dfef2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:40:39 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dabdcc38004de62f11e875237c6923cb01599781239; expires=Sat, 10-Oct-20 23:40:39 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051bfd93790000fef26208b200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:40:40.450 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+18:40:40.455 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 3: classpath:examples/features/users copy 2.feature
+18:45:46.389 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:45:46.543 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+18:45:46.543 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:45:46.543 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+18:45:46.543 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+18:45:46.716 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 3: classpath:examples/features/usercopyPostReq.feature
+18:45:46.914 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:45:46.914 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:45:46.914 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:45:47.403 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 487.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5899
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d064c0b32feb6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:45:46 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1988b2aab04a3a12bedc0bd03f217e1f1599781546; expires=Sat, 10-Oct-20 23:45:46 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0243810000feb6ac2e4200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:45:47.403 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 487.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5899
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d064c096afec2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:45:46 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d894870987da43ba55d291188dbde90b71599781546; expires=Sat, 10-Oct-20 23:45:46 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0243810000fec29d24e200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:45:47.403 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 487.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5899
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d064c0b35feb6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:45:46 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1988b2aab04a3a12bedc0bd03f217e1f1599781546; expires=Sat, 10-Oct-20 23:45:46 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0243810000feb6a2098200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:45:47.410 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:45:47.410 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: classpath:examples/features/users copy.feature
+18:45:47.411 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:45:47.551 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 138.63
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5900
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d064cfb18b3be-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:45:47 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df62783563e2529ea0d58a9ac9225dab01599781547; expires=Sat, 10-Oct-20 23:45:47 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c02441e0000b3be27146200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:45:47.585 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 174.18
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 308
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d064d3cbcfed2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:45:47 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d28e9640d797565d63b2449d00a774e891599781547; expires=Sat, 10-Oct-20 23:45:47 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0244400000fed2c0b0b200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:45:47.605 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+18:45:47.609 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 3: classpath:examples/features/users copy 2.feature
+18:46:51.202 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:46:51.349 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:46:51.349 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+18:46:51.349 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+18:46:51.349 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+18:46:51.665 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:46:51.665 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:46:51.665 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:46:51.665 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+18:46:52.018 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 351.67
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5964
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d07dfdea0feb2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:46:51 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da8370b1668ef6958c43b22c0839d79401599781611; expires=Sat, 10-Oct-20 23:46:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c033feb0000feb2c8ad1200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:46:52.018 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 351.68
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5964
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d07dfd90db3d6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:46:51 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d985b8a74be04d94722208c84359cccf31599781611; expires=Sat, 10-Oct-20 23:46:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c033feb0000b3d632191200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:46:52.018 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 351.68
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5964
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d07dfdffbfece-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:46:51 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d6470480b63b02b38189631770b886ea81599781611; expires=Sat, 10-Oct-20 23:46:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c033feb0000fece548ff200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:46:52.034 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:46:52.034 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:46:52.097 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: classpath:examples/features/users copy.feature
+18:46:52.173 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 137.03
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 372
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d07e0eee4feee-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:46:51 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7c05e706efb46129e02544d79b40a9bb1599781611; expires=Sat, 10-Oct-20 23:46:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c03408e0000feeec2878200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:46:52.182 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 146.92
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 5964
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d07e0fe93fef6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:46:51 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2fc14aa6107292b938f5b9c37be46d321599781611; expires=Sat, 10-Oct-20 23:46:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0340960000fef65a0fb200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:46:52.200 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+18:46:52.207 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 3: classpath:examples/features/users copy 2.feature
+18:46:52.286 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 618.45
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0d07dfdd83feee-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:46:51 GMT
+1 < Etag: W/"52-XoaRIMumou9GgtXHZPo8s5+VC+E"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7c05e706efb46129e02544d79b40a9bb1599781611; expires=Sat, 10-Oct-20 23:46:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c033feb0000feeeb9821200000001
+{"name":"Aakash","job":"leader","id":"212","createdAt":"2020-09-10T23:46:51.709Z"}
+
+18:46:52.295 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 3: classpath:examples/features/usercopyPostReq.feature
+18:48:17.530 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:48:17.672 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+18:48:17.672 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:48:17.672 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+18:48:17.672 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+18:48:17.820 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 3: classpath:examples/features/usercopyPostReq.feature
+18:48:18.020 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:48:18.020 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:48:18.020 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:48:18.358 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 336.53
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6050
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d09fb79c3feee-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:48:17 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d3dc27a2ae55f4679a7de6bf3c4d0ad061599781697; expires=Sat, 10-Oct-20 23:48:17 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c04912f0000feeeb59a2200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:48:18.358 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 336.53
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6050
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d09fb7dfafeea-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:48:17 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc0a86b68bc6b0f27498a87e7cc9314bc1599781697; expires=Sat, 10-Oct-20 23:48:17 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c04912f0000feea0d379200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:48:18.358 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 336.53
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6050
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d09fb79c4feee-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:48:17 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d3dc27a2ae55f4679a7de6bf3c4d0ad061599781697; expires=Sat, 10-Oct-20 23:48:17 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c04912f0000feeebd8d3200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:48:18.365 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:48:18.366 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: classpath:examples/features/users copy.feature
+18:48:18.368 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:48:18.512 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 146.38
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 458
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d09fc6d4efece-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:48:17 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d94a49cbf1cb1ea3e3a0a71aeeb47a7041599781697; expires=Sat, 10-Oct-20 23:48:17 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0491be0000fece4eb78200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:48:18.513 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 144.57
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6050
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d09fc680ffeae-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:48:17 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d243bfc2776141210749bf5517751f8871599781697; expires=Sat, 10-Oct-20 23:48:17 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0491be0000feae1f172200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:48:18.536 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+18:48:18.542 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 3: classpath:examples/features/users copy 2.feature
+18:49:06.566 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:49:06.702 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+18:49:06.701 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+18:49:06.702 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+18:49:06.701 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+18:49:07.063 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:49:07.063 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:49:07.063 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:49:07.063 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+18:49:07.460 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 394.41
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6099
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d0b2e58d8b39a-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:49:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db21a93464c27843b8b0d3adea3eb38fd1599781746; expires=Sat, 10-Oct-20 23:49:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0550fb0000b39a178c7200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:49:07.460 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 394.41
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6099
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d0b2e5b8cfeca-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:49:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dbb3a6bcbb9e8cc11a291dc8838489cd21599781746; expires=Sat, 10-Oct-20 23:49:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0550fb0000fecaaabfc200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:49:07.460 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 394.37
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6099
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d0b2e5b40feae-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:49:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1fd0ce1b236d80e53ee8511092b9b87b1599781746; expires=Sat, 10-Oct-20 23:49:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0550fb0000feae1c272200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:49:07.468 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:49:07.468 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+18:49:07.543 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: classpath:examples/features/users copy.feature
+18:49:07.589 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 121.12
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6100
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d0b2f3ab1fed6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:49:07 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df16b3fd6dfb55fbb6f3629e767d571491599781747; expires=Sat, 10-Oct-20 23:49:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0551870000fed603230200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:49:07.596 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 127.55
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 508
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0d0b2f4fb9feda-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:49:07 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1eb7407ac2580785859e6d414af5b8f31599781747; expires=Sat, 10-Oct-20 23:49:07 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c05518c0000feda6ab51200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+18:49:07.620 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+18:49:07.627 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 3: classpath:examples/features/users copy 2.feature
+18:49:07.717 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 652.86
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0d0b2e587bfeea-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 10 Sep 2020 23:49:07 GMT
+1 < Etag: W/"52-E0qpYKu96L/6YtcUfMBoUgz2mhc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da014acb641c460c85c3b2b22b7db63271599781746; expires=Sat, 10-Oct-20 23:49:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c0550fb0000feea11b91200000001
+{"name":"Aakash","job":"leader","id":"954","createdAt":"2020-09-10T23:49:07.152Z"}
+
+18:49:07.724 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 3: classpath:examples/features/usercopyPostReq.feature
+21:37:04.240 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:37:04.367 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+21:37:04.367 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+21:37:04.367 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:37:04.703 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:37:04.703 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:37:04.703 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:37:05.165 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 457.20
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1179
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e01385930fee2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:37:04 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d676352acab7309b438c8ac66827375d51599791824; expires=Sun, 11-Oct-20 02:37:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c9f17350000fee27e2ca200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:37:05.165 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 457.16
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1179
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e0138587afeea-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:37:04 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de1107a8915d68d9f588d172293127d511599791824; expires=Sun, 11-Oct-20 02:37:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c9f17350000feea08b4e200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:37:05.165 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 457.19
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1179
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e01385b46b3be-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:37:04 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d515fc04f088f6ef22b528aca85ace3b11599791824; expires=Sun, 11-Oct-20 02:37:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c9f17350000b3be2bb48200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:37:05.178 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:37:05.186 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:37:05.257 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 5: classpath:examples/features/users copy.feature
+21:37:05.317 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 129.69
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1179
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e01398abefee2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:37:04 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d676352acab7309b438c8ac66827375d51599791824; expires=Sun, 11-Oct-20 02:37:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c9f17f70000fee28a3ac200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:37:05.575 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 395.29
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 5d0e01397d29b382-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:37:05 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dbba6013e2d7c5fa23dbecba3a04cf0321599791824; expires=Sun, 11-Oct-20 02:37:04 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051c9f17ec0000b382f4a34200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:37:05.598 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] first_name ----- Emma
+21:37:05.602 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 5: classpath:examples/features/users copy 2.feature
+21:38:27.750 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:38:27.894 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+21:38:27.894 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+21:38:27.894 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+21:38:27.894 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+21:38:27.959 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] -----functiondata nanda
+21:38:28.092 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 5: classpath:examples/features/functioncreation.feature
+21:38:28.275 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:38:28.275 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:38:28.275 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:38:28.684 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 406.28
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1263
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e03427ecfb3a6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:38:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=de4a1560e71a40028c1528badf8c57dc21599791908; expires=Sun, 11-Oct-20 02:38:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ca05d8b0000b3a6e9ad0200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:38:28.684 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 406.44
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1263
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e03427af9fec6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:38:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d50fc45645ed6e2521b36dc78707ff69b1599791908; expires=Sun, 11-Oct-20 02:38:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ca05d8b0000fec661848200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:38:28.684 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 406.44
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1263
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e03427a52feba-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:38:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2d306247dc42c37a91ddc470e80eb5631599791908; expires=Sun, 11-Oct-20 02:38:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ca05d8b0000febad4971200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:38:28.691 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 5: classpath:examples/features/users copy.feature
+21:38:28.691 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:38:28.696 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+21:38:28.829 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 131.01
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1263
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e03435cc2feae-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:38:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d60f19427bb57a58885b1fb02bad25ff91599791908; expires=Sun, 11-Oct-20 02:38:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ca05e170000feae213bd200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:38:28.829 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 135.97
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 83
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e03435910fede-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 02:38:28 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df7e8d12bb80d36f9a93a16ef621aa1d71599791908; expires=Sun, 11-Oct-20 02:38:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ca05e140000fede56bc6200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+21:38:28.873 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] first_name ----- Emma
+21:38:28.881 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 5: classpath:examples/features/users copy 2.feature
+21:59:59.918 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:00:00.058 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+22:00:00.058 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+22:00:00.058 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+22:00:00.058 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:00:00.058 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:00:00.150 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:00:00.153 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] -----functiondata nanda
+22:00:00.269 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 5: classpath:examples/features/featureparampass.feature
+22:00:00.451 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:00:00.451 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:00:00.451 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+22:00:00.451 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+22:00:01.010 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 555.87
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2555
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e22cf483afeba-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:00:00 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d122efc76d1e2ac8f78903aac8a71f3bd1599793200; expires=Sun, 11-Oct-20 03:00:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cb4158f0000febac31c5200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:00:01.010 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 555.93
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2555
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e22cf5d29fef2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:00:00 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0c6a63842cac4485e2f8247b29af7bd01599793200; expires=Sun, 11-Oct-20 03:00:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cb415960000fef25c2b5200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:00:01.030 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:00:01.032 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 5: classpath:examples/features/users copy.feature
+22:00:01.039 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:00:01.069 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:00:01.254 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 221.41
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1375
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e22d0d87cfee6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:00:00 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d886094111006fb7f19952cb3a95ae85e1599793200; expires=Sun, 11-Oct-20 03:00:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cb4168a0000fee648aed200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:00:01.261 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 809.15
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e22cf5a48b39a-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:00:00 GMT
+1 < Etag: W/"52-h7QpvJOtUhV5Z/eFONtJyXU6QCg"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d369c2243e5e0286211f51f13506ed2d21599793200; expires=Sun, 11-Oct-20 03:00:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cb415990000b39a2212c200000001
+{"name":"Aakash","job":"leader","id":"256","createdAt":"2020-09-11T03:00:00.740Z"}
+
+22:00:01.282 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] first_name ----- Emma
+22:00:01.283 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 831.13
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e22cf5cd9feb6-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:00:00 GMT
+1 < Etag: W/"7d-Ty7oO5WxaVv7pV/DKm77Y3y/VW0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4ec902d34fed88bac89299db9ad0e3a01599793200; expires=Sun, 11-Oct-20 03:00:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cb415950000feb6abb79200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"299","createdAt":"2020-09-11T03:00:00.743Z"}
+
+22:00:01.284 [ForkJoinPool-1-worker-9] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 831, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T03:00:00.743Z","grant_type":"","client_secret":"#client_secret","id":"299","client_id":"#client_id"}
+22:00:01.292 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 5: classpath:examples/features/usercopyPostReq.feature
+22:00:01.298 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 227.57
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2555
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e22d13b69feba-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:00:00 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d122efc76d1e2ac8f78903aac8a71f3bd1599793200; expires=Sun, 11-Oct-20 03:00:00 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cb416c00000febac193d200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:00:01.302 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:00:01.555 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 251.56
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 2556
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e22d2cca0b382-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:00:01 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db1cc06a2161fb6f8a4d27a9e772f06d01599793201; expires=Sun, 11-Oct-20 03:00:01 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cb417b80000b382f9b93200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:00:01.569 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 5: classpath:examples/features/users copy 2.feature
+22:00:05.239 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 5: classpath:examples/features/functioncreation.feature
+22:26:34.342 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+22:26:34.346 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:examples/features/javafunc.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+22:26:34.346 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+22:27:42.665 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+22:27:42.669 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:examples/features/javafunc.feature - mismatched input '<EOF>' expecting {FEATURE_TAGS, FEATURE}
+22:27:42.669 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+22:29:54.635 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:29:54.809 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+22:29:54.810 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+22:29:54.810 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:29:54.815 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+22:29:54.819 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:29:54.920 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] result --  aakash
+22:29:54.934 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] -----functiondata nanda
+22:29:54.950 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:29:55.051 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 6: classpath:examples/features/javafunc.feature
+22:29:55.309 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:29:55.309 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:29:55.309 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+22:29:55.309 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+22:29:55.740 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 428.05
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4350
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e4ea08d26feae-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:29:55 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0a7f513009a4770b5eef2497a5efee9e1599794995; expires=Sun, 11-Oct-20 03:29:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ccf78500000feae1c277200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:29:55.740 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 428.12
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4350
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e4ea079a2feaa-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:29:55 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc080ab32dc2964edbe9b54b681d00a961599794995; expires=Sun, 11-Oct-20 03:29:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ccf784e0000feaabe3f0200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:29:55.758 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:29:55.759 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 6: classpath:examples/features/users copy.feature
+22:29:55.768 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+22:29:55.802 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:29:55.896 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 136.35
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3170
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e4ea19fbeb394-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:29:55 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d6216d6ade3938ecfeea4ae183e5718611599794995; expires=Sun, 11-Oct-20 03:29:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ccf79020000b394ab304200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:29:55.918 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] first_name ----- Emma
+22:29:55.930 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 127.72
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4350
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e4ea1dc47fed2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:29:55 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d496b377095ea84afd7ba150f330bbeeb1599794995; expires=Sun, 11-Oct-20 03:29:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ccf79240000fed2b43ee200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:29:55.935 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:29:55.980 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 669.66
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e4ea07a3efed2-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 124
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:29:55 GMT
+1 < Etag: W/"7c-Dy6YWX9ATH2VPPWb9b0M9FxhmOo"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d496b377095ea84afd7ba150f330bbeeb1599794995; expires=Sun, 11-Oct-20 03:29:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ccf784f0000fed2b62d7200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"49","createdAt":"2020-09-11T03:29:55.492Z"}
+
+22:29:55.981 [ForkJoinPool-1-worker-11] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 670, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T03:29:55.492Z","grant_type":"","client_secret":"#client_secret","id":"49","client_id":"#client_id"}
+22:29:55.992 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 682.06
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e4ea078a6feea-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:29:55 GMT
+1 < Etag: W/"52-b0s+HQaUqUq+0cXhf77YZv6AfZY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc6229aec1bd836885c6b1e292f3e30f31599794995; expires=Sun, 11-Oct-20 03:29:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ccf784f0000feea04bb3200000001
+{"name":"Aakash","job":"leader","id":"170","createdAt":"2020-09-11T03:29:55.505Z"}
+
+22:29:55.999 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:examples/features/usercopyPostReq.feature
+22:29:56.061 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 124.51
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4350
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e4ea2a8a5fece-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:29:55 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0a9f1d817f50be403b833618485a6a331599794995; expires=Sun, 11-Oct-20 03:29:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051ccf79aa0000fece5fac8200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:29:56.068 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 6: classpath:examples/features/users copy 2.feature
+22:30:00.021 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:examples/features/functioncreation.feature
+22:30:55.352 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:30:55.501 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:30:55.502 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+22:30:55.501 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+22:30:55.502 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+22:30:55.501 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:30:55.582 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] -----functiondata nanda
+22:30:55.590 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] result --  aakash
+22:30:55.627 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+22:30:55.705 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 6: classpath:examples/features/javafunc.feature
+22:30:55.945 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:30:55.945 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:30:55.946 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+22:30:55.946 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+22:30:56.418 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 468.17
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4410
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e501b8a3cfeae-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:30:55 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5e451ad5f1da57ada8a75a7567800b181599795055; expires=Sun, 11-Oct-20 03:30:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd065300000feae0d85b200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:30:56.418 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 468.23
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4410
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e501b8a3bfeae-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:30:55 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5e451ad5f1da57ada8a75a7567800b181599795055; expires=Sun, 11-Oct-20 03:30:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd065300000feae16157200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:30:56.441 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:30:56.441 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 6: classpath:examples/features/users copy.feature
+22:30:56.452 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+22:30:56.486 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:30:56.622 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 180.05
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3231
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e501d0929b3b8-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:30:56 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4992a64a1fc62571c4ce724d97a1274d1599795056; expires=Sun, 11-Oct-20 03:30:56 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd066280000b3b8b0315200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:30:56.622 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 675.78
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e501b8d93feb6-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:30:56 GMT
+1 < Etag: W/"52-vp1PkuLD6k4qEV5tAgu6fGuipFI"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d469b7a30bcb02b500dfcabb705d3a6a21599795055; expires=Sun, 11-Oct-20 03:30:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd065300000feb6abb12200000001
+{"name":"Aakash","job":"leader","id":"475","createdAt":"2020-09-11T03:30:56.122Z"}
+
+22:30:56.646 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 699.47
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e501b8e27feda-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:30:56 GMT
+1 < Etag: W/"7d-UnTMtU24m6qsaH8mpGXJ3E9EJzY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5a89e65d37c0d225a2558991f438fd051599795055; expires=Sun, 11-Oct-20 03:30:55 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd065310000feda5e8c2200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"730","createdAt":"2020-09-11T03:30:56.130Z"}
+
+22:30:56.647 [ForkJoinPool-1-worker-11] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 699, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T03:30:56.130Z","grant_type":"","client_secret":"#client_secret","id":"730","client_id":"#client_id"}
+22:30:56.660 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+22:30:56.660 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 173.52
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4411
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e501d4d5afeae-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:30:56 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0b424abdcf8e050a45afd4c61ef256ce1599795056; expires=Sun, 11-Oct-20 03:30:56 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd066510000feae0e121200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:30:56.665 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:30:56.669 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:examples/features/usercopyPostReq.feature
+22:30:56.802 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 136.05
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4411
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e501e4ef0feea-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:30:56 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2864376804ca9c721e6001f39d3be6581599795056; expires=Sun, 11-Oct-20 03:30:56 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd066ef0000feea10345200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:30:56.807 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 6: classpath:examples/features/users copy 2.feature
+22:31:00.656 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:examples/features/functioncreation.feature
+22:34:28.049 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:34:28.175 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:34:28.175 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+22:34:28.176 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:34:28.175 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+22:34:28.175 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+22:34:28.263 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] -----functiondata nanda
+22:34:28.292 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:34:28.389 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 6: classpath:examples/features/javafunc.feature
+22:34:28.584 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:34:28.584 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:34:28.584 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+22:34:28.584 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+22:34:28.976 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 390.59
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4623
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e554c4efbfeca-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:34:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d98db094df276bed683649cf8d05aac4d1599795268; expires=Sun, 11-Oct-20 03:34:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd3a3aa0000fecaabbc3200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:34:28.977 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 391.88
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4623
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e554c4985fee2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:34:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dbc815ff907aafe1e5570fa7d64f5726c1599795268; expires=Sun, 11-Oct-20 03:34:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd3a3ab0000fee27c8e3200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:34:28.987 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 6: classpath:examples/features/users copy.feature
+22:34:28.989 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:34:28.993 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:34:29.018 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:34:29.126 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 135.44
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3443
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e554d4a77feea-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:34:28 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d01ab46a88e7bf648d03bd408362ec39d1599795268; expires=Sun, 11-Oct-20 03:34:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd3a44f0000feea11985200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:34:29.163 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 143.44
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4623
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e554d8c0db3e2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:34:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d83a0faa3eb3ec5ddcef69cadb4b375211599795268; expires=Sun, 11-Oct-20 03:34:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd3a4740000b3e218844200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:34:29.168 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] first_name ----- Emma
+22:34:29.172 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:34:29.228 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 642.46
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e554c484afec6-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:34:28 GMT
+1 < Etag: W/"52-gDmnEzdRR0kpOc8zjJr7e3wtx8I"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dca916e637c16c8419d3456440be0228d1599795268; expires=Sun, 11-Oct-20 03:34:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd3a3aa0000fec65d802200000001
+{"name":"Aakash","job":"leader","id":"900","createdAt":"2020-09-11T03:34:28.739Z"}
+
+22:34:29.228 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 642.51
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e554c489bfeea-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:34:28 GMT
+1 < Etag: W/"7d-MoRsdOlldOUDd8gqB9/s3L3Sdy0"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d01ab46a88e7bf648d03bd408362ec39d1599795268; expires=Sun, 11-Oct-20 03:34:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd3a3af0000feea0f8fc200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"507","createdAt":"2020-09-11T03:34:28.741Z"}
+
+22:34:29.228 [ForkJoinPool-1-worker-7] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 643, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T03:34:28.741Z","grant_type":"","client_secret":"#client_secret","id":"507","client_id":"#client_id"}
+22:34:29.234 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:examples/features/usercopyPostReq.feature
+22:34:29.297 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 123.89
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4623
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e554e685efeda-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:34:28 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dad2c0c1828d29e5485eb4109afc58b091599795268; expires=Sun, 11-Oct-20 03:34:28 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd3a4fc0000feda3da4f200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:34:29.311 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 6: classpath:examples/features/users copy 2.feature
+22:34:33.347 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:examples/features/functioncreation.feature
+22:35:23.966 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+22:35:24.099 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+22:35:24.099 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+22:35:24.099 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+22:35:24.099 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+22:35:24.099 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:35:24.158 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] -----functiondata nanda
+22:35:24.178 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] result --  HelloAnkita
+22:35:24.194 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+22:35:24.283 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 6: classpath:examples/features/javafunc.feature
+22:35:24.455 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:35:24.455 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:35:24.456 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+22:35:24.456 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+22:35:24.859 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 400.75
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4679
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e56a98cdcfec6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:35:24 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8321bf409b6e644ba70dcd1d525cc0941599795324; expires=Sun, 11-Oct-20 03:35:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd47df00000fec6588c3200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:35:24.859 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 400.84
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4679
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e56a98cf3b3b2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:35:24 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dc5e5f32ad37110752fb5d928798f567c1599795324; expires=Sun, 11-Oct-20 03:35:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd47df10000b3b2baa8f200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:35:24.877 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:35:24.880 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 6: classpath:examples/features/users copy.feature
+22:35:24.892 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+22:35:24.915 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:35:24.997 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 117.42
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 3499
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e56aa8e4efece-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:35:24 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dfd1b8b84a834e1c0005eea66ed99949f1599795324; expires=Sun, 11-Oct-20 03:35:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd47e920000fece4ea26200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:35:25.020 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+22:35:25.041 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 125.29
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4679
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e56aacb1efef2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:35:24 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dbd76365fef4b3a9b81f53680f566543a1599795324; expires=Sun, 11-Oct-20 03:35:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd47eb80000fef260029200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:35:25.045 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+22:35:25.094 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 637.67
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e56a98832feb2-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:35:24 GMT
+1 < Etag: W/"7d-wA8OamOugI2hwVhlxq4oIUEGMWw"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d4cb9a82223fc72f7b278d08c486d9b261599795324; expires=Sun, 11-Oct-20 03:35:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd47df00000feb2d1b6a200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"492","createdAt":"2020-09-11T03:35:24.604Z"}
+
+22:35:25.094 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 637.52
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0e56a989a7fef2-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:35:24 GMT
+1 < Etag: W/"52-+4z1VhFf0x8Q+vfBYCfu2lJA7yQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dbd76365fef4b3a9b81f53680f566543a1599795324; expires=Sun, 11-Oct-20 03:35:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd47df00000fef2613ad200000001
+{"name":"Aakash","job":"leader","id":"448","createdAt":"2020-09-11T03:35:24.605Z"}
+
+22:35:25.096 [ForkJoinPool-1-worker-9] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 638, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T03:35:24.604Z","grant_type":"","client_secret":"#client_secret","id":"492","client_id":"#client_id"}
+22:35:25.112 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:examples/features/usercopyPostReq.feature
+22:35:25.164 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 117.18
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 4679
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0e56ab8968fee6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 03:35:24 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=da90ead39ac1a1ad5371ff8d5e07104341599795324; expires=Sun, 11-Oct-20 03:35:24 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051cd47f340000fee6429fa200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+22:35:25.179 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 6: classpath:examples/features/users copy 2.feature
+22:35:29.229 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:examples/features/functioncreation.feature
+23:38:54.068 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:38:54.202 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+23:38:54.202 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+23:38:54.202 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:38:54.202 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+23:38:54.202 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+23:38:54.257 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] -----functiondata nanda
+23:38:54.283 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] result --  HelloAnkita
+23:38:54.302 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:38:54.407 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 3 of 6: classpath:examples/features/javafunc.feature
+23:38:54.567 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:38:54.567 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:38:54.567 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+23:38:54.567 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+23:38:55.050 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 479.70
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 989
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb3ae2e70fece-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:38:54 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d30c43fa90865707422d67be3a7797d8c1599799134; expires=Sun, 11-Oct-20 04:38:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0ea0da0000fece4d132200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:38:55.050 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 479.72
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 989
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb3ae2b3cb3b8-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:38:54 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d96e566442e94c06377879fd8aab1c8161599799134; expires=Sun, 11-Oct-20 04:38:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0ea0da0000b3b8b0111200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:38:55.067 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 6: classpath:examples/features/users copy.feature
+23:38:55.070 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:38:55.074 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+23:38:55.101 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:38:55.237 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 134.52
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 989
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb3af8e24feb2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:38:54 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d891e06edbaa2d77c0dd5752812a331c51599799134; expires=Sun, 11-Oct-20 04:38:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0ea1b30000feb2ca3d2200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:38:55.245 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:38:55.283 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 714.79
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0eb3ae28fdb382-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:38:54 GMT
+1 < Etag: W/"7d-XvuCr8meGb6AzWSD5+9BX54RvBM"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dfb27c081e186a446027fee01964fbb121599799134; expires=Sun, 11-Oct-20 04:38:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0ea0da0000b382f4263200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"980","createdAt":"2020-09-11T04:38:54.639Z"}
+
+23:38:55.284 [ForkJoinPool-1-worker-9] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 715, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T04:38:54.639Z","grant_type":"","client_secret":"#client_secret","id":"980","client_id":"#client_id"}
+23:38:55.289 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 721.39
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0eb3ae28d4fef6-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:38:54 GMT
+1 < Etag: W/"52-sJhdxq+HY6etmtfdGJXgVUpnBLQ"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d9137e7c8ec7bb157fcc955a40d2502461599799134; expires=Sun, 11-Oct-20 04:38:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0ea0da0000fef658825200000001
+{"name":"Aakash","job":"leader","id":"841","createdAt":"2020-09-11T04:38:54.644Z"}
+
+23:38:55.295 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:examples/features/usercopyPostReq.feature
+23:38:55.364 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 118.37
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 989
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb3b059b7fed2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:38:54 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d526b26344cb76afaab77625ef018098b1599799134; expires=Sun, 11-Oct-20 04:38:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0ea2350000fed2b886d200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:38:55.449 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 377.89
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 5d0eb3af4fe1feda-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:38:54 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d94c0a427b541495dec1276c7c42dd3571599799134; expires=Sun, 11-Oct-20 04:38:54 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0ea1900000feda628ab200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:38:55.500 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+23:38:55.505 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 6: classpath:examples/features/users copy 2.feature
+23:38:59.311 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:examples/features/functioncreation.feature
+23:39:42.197 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:39:42.326 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+23:39:42.326 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+23:39:42.326 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+23:39:42.326 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+23:39:42.326 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:39:42.388 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] result --  HelloAnkita
+23:39:42.393 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] -----functiondata nanda
+23:39:42.416 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] result1--- 
+23:39:42.427 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+23:39:42.532 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 6: classpath:examples/features/javafunc.feature
+23:39:42.707 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:39:42.707 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:39:42.707 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+23:39:42.707 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+23:39:42.998 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 290.60
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1037
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb4d9fdf8b388-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d3da66397725e6a9f914c5e044dac83f01599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5c3b0000b388de06a200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:39:43.001 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 293.84
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1037
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb4d9fac2b3d6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7834a753c4fdd38ac6f0db3ebcb735f51599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5c3a0000b3d634879200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:39:43.005 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:39:43.009 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 6: classpath:examples/features/users copy.feature
+23:39:43.010 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+23:39:43.036 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:39:43.135 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 128.46
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 48
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb4dacb20b3d6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7834a753c4fdd38ac6f0db3ebcb735f51599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5cba0000b3d63703d200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:39:43.156 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] first_name ----- Emma
+23:39:43.173 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 136.10
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1037
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb4db2d4ab3ca-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d0219e9ccfcdf7bced27414ce8d086ad71599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5cf40000b3ca3506c200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:39:43.177 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:39:43.239 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 532.03
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0eb4d9f975b3ac-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"7d-4pPov2YdGurS7t6VP5OE1K7UmOA"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddd284e5bf359cc1d17844505d9f3de7e1599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5c3a0000b3ac562ed200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"107","createdAt":"2020-09-11T04:39:42.596Z"}
+
+23:39:43.240 [ForkJoinPool-1-worker-9] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 532, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T04:39:42.596Z","grant_type":"","client_secret":"#client_secret","id":"107","client_id":"#client_id"}
+23:39:43.243 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 535.43
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0eb4d9fdd8fee6-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"52-d8wcFJzVqydcQR/kOODkQ6vu6NY"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=deb44e2ac43a5f767cd02213d1809131e1599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5c3a0000fee638188200000001
+{"name":"Aakash","job":"leader","id":"305","createdAt":"2020-09-11T04:39:42.598Z"}
+
+23:39:43.250 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:examples/features/usercopyPostReq.feature
+23:39:43.299 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 121.43
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1037
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb4dbee91feca-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:39:42 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d58a55c59a53b0a94370ff033e0a202ff1599799182; expires=Sun, 11-Oct-20 04:39:42 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d0f5d730000fecaa428b200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:39:43.304 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 6: classpath:examples/features/users copy 2.feature
+23:39:47.456 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:examples/features/functioncreation.feature
+23:42:29.622 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+23:42:29.758 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+23:42:29.758 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+23:42:29.758 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+23:42:29.758 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+23:42:29.761 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:42:29.836 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] -----functiondata nanda
+23:42:29.852 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] result --  HelloAnkita
+23:42:29.858 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] result1 --  HelloAakash
+23:42:29.888 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+23:42:30.005 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 6: classpath:examples/features/javafunc.feature
+23:42:30.156 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:42:30.156 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:42:30.157 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+23:42:30.157 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+23:42:30.500 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 339.85
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1204
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb8f0ca0afeee-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:29 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dd466167379a534291a3ec7b977f952d31599799349; expires=Sun, 11-Oct-20 04:42:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11ea780000feeebf98d200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:42:30.500 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 339.85
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1204
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb8f0ca31fee6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:29 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d8c09d1615ca81c54cba19dbfeeb0e8931599799349; expires=Sun, 11-Oct-20 04:42:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11ea780000fee63d9ef200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:42:30.514 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:42:30.515 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 6 of 6: classpath:examples/features/users copy.feature
+23:42:30.520 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+23:42:30.545 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:42:30.636 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 119.92
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 216
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb8f1c999feaa-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:30 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d2698c0cde35381f3c8ae41e579844a7a1599799350; expires=Sun, 11-Oct-20 04:42:30 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11eb180000feaacc198200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:42:30.672 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 125.77
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1205
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb8f1ef98b39a-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:30 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d43b8b75f36e364d45d5d00ef5f4d08781599799350; expires=Sun, 11-Oct-20 04:42:30 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11eb330000b39a1a3ed200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:42:30.681 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+23:42:30.691 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - [print] first_name ----- Emma
+23:42:30.735 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 576.40
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0eb8f0ca87b3e8-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 81
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:30 GMT
+1 < Etag: W/"51-yZ5oCaNpBvmTAxoSuONfw3wR5cE"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=df4395aac136798452588877b4b99daa61599799349; expires=Sun, 11-Oct-20 04:42:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11ea7c0000b3e8baa69200000001
+{"name":"Aakash","job":"leader","id":"98","createdAt":"2020-09-11T04:42:30.091Z"}
+
+23:42:30.739 [ForkJoinPool-1-worker-11] DEBUG com.intuit.karate - response time in milliseconds: 581.94
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d0eb8f0ce32feb2-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 125
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:30 GMT
+1 < Etag: W/"7d-NCQC1Dqg3qHBEW2GcG6D8pBeRVc"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=db61ee34b5ab239f2b483887c6a85b29f1599799349; expires=Sun, 11-Oct-20 04:42:29 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11ea7c0000feb2d4a00200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"242","createdAt":"2020-09-11T04:42:30.093Z"}
+
+23:42:30.740 [ForkJoinPool-1-worker-11] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 582, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-11T04:42:30.093Z","grant_type":"","client_secret":"#client_secret","id":"242","client_id":"#client_id"}
+23:42:30.750 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<fail>> feature 4 of 6: classpath:examples/features/usercopyPostReq.feature
+23:42:30.801 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 118.40
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 1205
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d0eb8f2c8a1fef6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Fri, 11 Sep 2020 04:42:30 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d133078dfde6090560a90c486df8838aa1599799350; expires=Sun, 11-Oct-20 04:42:30 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 051d11ebbd0000fef65b33d200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+23:42:30.811 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 6: classpath:examples/features/users copy 2.feature
+23:42:34.894 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 6: classpath:examples/features/functioncreation.feature
+10:27:38.326 [main] ERROR com.intuit.karate.core.FeatureParser - syntax error: mismatched input 'w' expecting <EOF>
+10:27:38.347 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: classpath:examples/features/dbUtil.feature - mismatched input 'w' expecting <EOF>
+10:27:38.348 [main] ERROR com.intuit.karate.Runner - karate parallel runner failed: 
+10:27:38.594 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+10:27:38.594 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+10:27:38.597 [ForkJoinPool-1-worker-5] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.nio.channels.ClosedByInterruptException
+10:27:38.597 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - javascript function call failed: java.lang.RuntimeException: java.nio.channels.ClosedByInterruptException
+10:27:38.598 [ForkJoinPool-1-worker-5] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: java.nio.channels.ClosedChannelException
+10:27:38.598 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - evaluation of 'karate-config.js' failed: java.nio.channels.ClosedChannelException
+10:30:06.899 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:30:07.073 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.072 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.072 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.072 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.072 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.170 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - [print] test 1
+10:30:07.172 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] test 2
+10:30:07.202 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] result --  HelloAnkita
+10:30:07.206 [ForkJoinPool-1-worker-11] INFO  com.intuit.karate - [print] -----functiondata nanda
+10:30:07.228 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - scenario called at line: 4 by tag: @tag1
+10:30:07.231 [ForkJoinPool-1-worker-5] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.239 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - [print] result1 --  HelloAakash
+10:30:07.241 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] test 1
+10:30:07.247 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] {
+  "__arg": null,
+  "env": "dev",
+  "myVarName": "someValue",
+  "__loop": -1
+}
+
+10:30:07.263 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.485 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 5 of 8: classpath:examples/features/javafunc.feature
+10:30:07.485 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 8: classpath:examples/features/callingfeatureScenarios.feature
+10:30:07.487 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<fail>> feature 2 of 8: classpath:examples/features/dbUtil.feature
+10:30:07.509 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.513 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - karate.env system property was:  
+10:30:07.881 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:07.881 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:07.882 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 35
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+{ "name": "Aakash", "job":"leader"}
+
+10:30:07.882 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST https://reqres.in/api/users/toke
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 65
+1 > Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+grant_type=&client_id=%23client_id&client_secret=%23client_secret
+
+10:30:08.552 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 668.47
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf61cdcfee6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5fc3f3bb6860bd4cd8f4f0630f3c0e4e1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dca0000fee63e916200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.552 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 668.48
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf61e9ffede-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d7a71d331edb1a7f23e07a47e7a7df57d1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dca0000fede46932200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.561 [pool-1-thread-5] INFO  com.intuit.karate.Runner - <<pass>> feature 8 of 8: classpath:examples/features/users copy.feature
+10:30:08.561 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:08.567 [ForkJoinPool-1-worker-9] INFO  com.intuit.karate - karate.env system property was:  
+10:30:08.601 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:08.739 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 137.51
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf75c6cb3ac-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dce3c4e22dd929667c4989eb01abcdbdc1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892e920000b3ac5eb71200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.746 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/3
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: reqres.in
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/14.0.2)
+
+10:30:08.824 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 939.61
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d1aaaf61a2ffeae-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 123
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"7b-kYyg5b1uqTdmw3yQ9pqo1sweylo"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d1ff2ff406fadf1414d4a2d28c45bd9f61599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dd00000feae2a25b200000001
+{"grant_type":"","client_id":"#client_id","client_secret":"#client_secret","id":"7","createdAt":"2020-09-12T15:30:06.650Z"}
+
+10:30:08.825 [ForkJoinPool-1-worker-3] ERROR com.intuit.karate - status code was: 201, expected: 200, response time: 940, url: https://reqres.in/api/users/toke, response: {"createdAt":"2020-09-12T15:30:06.650Z","grant_type":"","client_secret":"#client_secret","id":"7","client_id":"#client_id"}
+10:30:08.837 [ForkJoinPool-1-worker-5] DEBUG com.intuit.karate - response time in milliseconds: 953.48
+1 < 201
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-RAY: 5d1aaaf619c1fed6-IAH
+1 < Connection: keep-alive
+1 < Content-Length: 82
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"52-UMwsTg9pziiICzrbrkQweRffcwo"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d47d30cf524c45e77300d10fe0c2e9ca21599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892dd00000fed6fb1ac200000001
+{"name":"Aakash","job":"leader","id":"462","createdAt":"2020-09-12T15:30:06.648Z"}
+
+10:30:08.844 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<fail>> feature 6 of 8: classpath:examples/features/usercopyPostReq.feature
+10:30:08.865 [ForkJoinPool-1-worker-9] DEBUG com.intuit.karate - response time in milliseconds: 117.32
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < Age: 6898
+1 < CF-Cache-Status: HIT
+1 < CF-RAY: 5d1aaaf80fb5fee6-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"16e-/dQyOreIv6pEupp8RbP+u+utK/A"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d5fc3f3bb6860bd4cd8f4f0630f3c0e4e1599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892f090000fee635ab6200000001
+{"data":{"id":3,"email":"emma.wong@reqres.in","first_name":"Emma","last_name":"Wong","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/olegpogodaev/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:08.966 [ForkJoinPool-1-worker-7] DEBUG com.intuit.karate - response time in milliseconds: 402.77
+1 < 200
+1 < Access-Control-Allow-Origin: *
+1 < CF-Cache-Status: REVALIDATED
+1 < CF-RAY: 5d1aaaf6fcb7feb2-IAH
+1 < Cache-Control: max-age=14400
+1 < Connection: keep-alive
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Sat, 12 Sep 2020 15:30:06 GMT
+1 < Etag: W/"173-1Z8bn0V7UjH6FK7NCaza1ccWXQk"
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=d15b95f94ebf47ab77975f2e2ffd8a1371599924606; expires=Mon, 12-Oct-20 15:30:06 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure
+1 < Transfer-Encoding: chunked
+1 < Vary: Accept-Encoding
+1 < Via: 1.1 vegur
+1 < X-Powered-By: Express
+1 < cf-request-id: 0524892e5c0000feb2da3dd200000001
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}
+
+10:30:09.025 [ForkJoinPool-1-worker-7] INFO  com.intuit.karate - [print] first_name ----- Emma
+10:30:09.040 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 7 of 8: classpath:examples/features/users copy 2.feature
+10:30:12.298 [pool-1-thread-4] INFO  com.intuit.karate.Runner - <<pass>> feature 4 of 8: classpath:examples/features/functioncreation.feature

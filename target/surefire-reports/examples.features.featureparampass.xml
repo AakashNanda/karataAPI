@@ -1,0 +1,14 @@
+<testsuite failures="1" name="examples/features/featureparampass.feature" skipped="0" tests="1" time="0.020575">
+  <testcase classname="examples.features.featureparampass" name="test 1" time="0.020575">
+    <failure message="-unknown-:5 - evaluation (js) failed: ('usercopyPostReq.feature') {client_id: 'aakash', client_secret: 'nanda'}, javax.script.ScriptException: &lt;eval&gt;:1:28 Expected ; but found {&#13;&#10;('usercopyPostReq.feature') {client_id: 'aakash', client_secret: 'nanda'}&#13;&#10;                            ^ in &lt;eval&gt; at line number 1 at column number 28&#10;stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)">* def myFeature = call read ('usercopyPostReq.feature') {client_id: 'aakash', client_secret: 'nanda'} . failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:5 - evaluation (js) failed: ('usercopyPostReq.feature') {client_id: 'aakash', client_secret: 'nanda'}, javax.script.ScriptException: &lt;eval&gt;:1:28 Expected ; but found {&#13;
+('usercopyPostReq.feature') {client_id: 'aakash', client_secret: 'nanda'}&#13;
+                            ^ in &lt;eval&gt; at line number 1 at column number 28
+stack trace: jdk.scripting.nashorn/jdk.nashorn.api.scripting.NashornScriptEngine.throwAsScriptException(NashornScriptEngine.java:477)&#13;
+	at ✽.* def myFeature = call read ('usercopyPostReq.feature') {client_id: 'aakash', client_secret: 'nanda'} (-unknown-:5)&#13;
+
+* def tokenValue = myFeature.accesstoken .................................. skipped</failure>
+  </testcase>
+</testsuite>

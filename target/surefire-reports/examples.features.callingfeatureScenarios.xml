@@ -1,0 +1,11 @@
+<testsuite failures="0" name="examples/features/callingfeatureScenarios.feature" skipped="0" tests="2" time="0.09112">
+  <testcase classname="examples.features.callingfeatureScenarios" name="Test 1" time="0.006799">
+    <system-out>* print 'test 1' .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.features.callingfeatureScenarios" name="Test 2" time="0.084321">
+    <system-out>* print 'test 1' .......................................................... passed
+* print 'test 2' .......................................................... passed
+* def result = call read('callingfeatureScenarios.feature@tag1') .......... passed
+* print result ............................................................ passed</system-out>
+  </testcase>
+</testsuite>

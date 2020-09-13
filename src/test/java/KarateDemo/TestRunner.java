@@ -1,5 +1,0 @@
-package karate;
-
-class TestRunner {
-
-}

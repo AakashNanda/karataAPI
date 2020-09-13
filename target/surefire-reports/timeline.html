@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-5"},{"id":2,"content":"ForkJoinPool-1-worker-7"},{"id":3,"content":"ForkJoinPool-1-worker-3"},{"id":4,"content":"ForkJoinPool-1-worker-11"},{"id":5,"content":"ForkJoinPool-1-worker-9"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"callingfeatureScenarios[1:4]","start":1102,"end":1122,"title":"callingfeatureScenarios[1:4] 18:00:01.102-18:00:01.122 Test 1"},{"id":2,"group":2,"content":"callingfeatureScenarios[2:8]","start":1102,"end":1200,"title":"callingfeatureScenarios[2:8] 18:00:01.102-18:00:01.200 Test 2"},{"id":3,"group":3,"content":"dbUtil[1:9]","start":1103,"end":1184,"title":"dbUtil[1:9] 18:00:01.103-18:00:01.184 DB testing"},{"id":4,"group":4,"content":"functioncreation[1:13]","start":1102,"end":6244,"title":"functioncreation[1:13] 18:00:01.102-18:00:06.244 function results"},{"id":5,"group":5,"content":"javafunc[1:3]","start":1103,"end":1222,"title":"javafunc[1:3] 18:00:01.103-18:00:01.222 test outside function calling"},{"id":6,"group":1,"content":"usercopyPostReq[1:4]","start":1184,"end":2790,"title":"usercopyPostReq[1:4] 18:00:01.184-18:00:02.790 Post method test"},{"id":7,"group":3,"content":"usercopyPostReq[2:11]","start":1216,"end":2777,"title":"usercopyPostReq[2:11] 18:00:01.216-18:00:02.777 Access token"},{"id":8,"group":2,"content":"users copy 2[1:12]","start":1465,"end":2979,"title":"users copy 2[1:12] 18:00:01.465-18:00:02.979 get all users and then get the first user by id"},{"id":9,"group":5,"content":"users copy 2[2:25]","start":2520,"end":2818,"title":"users copy 2[2:25] 18:00:02.520-18:00:02.818 get all users and then get the first user by id"},{"id":10,"group":5,"content":"users copy[1:8]","start":1463,"end":2508,"title":"users copy[1:8] 18:00:01.463-18:00:02.508 get all users and then get the first user by id"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

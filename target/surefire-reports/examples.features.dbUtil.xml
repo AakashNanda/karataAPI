@@ -1,0 +1,14 @@
+<testsuite failures="1" name="examples/features/dbUtil.feature" skipped="0" tests="1" time="0.067049">
+  <testcase classname="examples.features.dbUtil" name="DB testing" time="0.067049">
+    <failure message="-unknown-:7 - evaluation (js) failed: new DbUtils(config), java.lang.IllegalStateException: Could not load JDBC driver class [org.h2.Drivecom.mysql.jdbc.Driverr]&#10;stack trace: org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)">* def config = { username: 'sa', password: '', url: 'jdbc:mysql://localhost:3306/sonoo', driverClassName: 'org.h2.Drivecom.mysql.jdbc.Driverr' } . passed
+* def DbUtils = Java.type('examples.DbUtils') ............................. passed
+* def db = new DbUtils(config) ............................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:7 - evaluation (js) failed: new DbUtils(config), java.lang.IllegalStateException: Could not load JDBC driver class [org.h2.Drivecom.mysql.jdbc.Driverr]
+stack trace: org.springframework.jdbc.datasource.DriverManagerDataSource.setDriverClassName(DriverManagerDataSource.java:131)&#13;
+	at ✽.* def db = new DbUtils(config) (-unknown-:7)&#13;
+
+* def employees = db.readRows("select salary from office where name='aakash'") . skipped</failure>
+  </testcase>
+</testsuite>

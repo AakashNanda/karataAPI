@@ -1,0 +1,11 @@
+<testsuite failures="0" name="examples/features/functioncreation.feature" skipped="0" tests="1" time="5.124741">
+  <testcase classname="examples.features.functioncreation" name="function results" time="5.124741">
+    <system-out>* def myfun = function() { return 'Aakash'} ............................... passed
+* def myfundata = call myfun .............................................. passed
+* def myfun1 = ............................................................ passed
+* def myfundata1 = call myfun1 ............................................ passed
+When print '-----functiondata', myfundata1 ................................ passed
+* def sleep = ............................................................. passed
+* call sleep 5 ............................................................ passed</system-out>
+  </testcase>
+</testsuite>
